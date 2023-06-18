@@ -1,0 +1,39 @@
+.course-form{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #0b0a0a;
+    display: flex;
+    flex-direction: column;
+    background-color: #b6f4e7;
+
+}
+.course-form div {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    background-color: #b6f4e7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.course-form div select, .course-form div label {
+    width: 30%;
+    font-size: larger;
+    font-weight: 600;
+}
+.course-form button{
+    margin: 20px auto;
+    padding: 10px;
+    width: 20%;
+    background-color: #2d971b;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    
+
+}

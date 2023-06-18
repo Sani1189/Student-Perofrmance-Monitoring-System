@@ -1,0 +1,274 @@
+.main-content {
+    margin-left: 23%;
+    margin-top: 7vh;
+}
+@media only screen and (max-width: 768px) {
+    .main-content {
+        margin-left: 20px;
+        margin-top: 7vh;
+    }
+}
+@media only screen and (min-width:1599px) {
+    .main-content {
+        margin-left: 16%;
+        margin-top: 7vh;
+    }
+}
+
+
+/* Faculty Dashboard css */
+.fcard{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    background-color: #b6f4e7;
+}
+
+.faculty-info .fcard{
+    margin: 10px 9% 10px 9%;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    background-color: #59f0d0;
+}
+
+
+/* add question Dashboard css */
+
+.cld{
+    margin-top: 120px;
+}
+.formDiv{
+   margin: 50px;
+   margin-top: 20px;
+}
+
+
+.formDiv label{
+    margin-left: 140px;
+    font-size: 20px;
+    padding: 4px;
+    background: rgb(78, 226, 219);
+    width: 140px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    border: none!important;
+
+
+
+}
+
+
+.addquestion select{
+    background: rgb(78, 226, 219);
+    font-size: 20px;
+    width: 110px;
+    border: none!important;
+    border-radius: 5px;
+    font-weight: 600;
+
+
+}
+
+/* plo */
+.addplo select{
+    font-size: 20px;
+    padding: 5px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 7px;
+    text-align: center;
+    border: none!important;
+    margin-left: 30px;
+    background-color: aquamarine;
+}
+
+.submitdiv label{
+    margin-left: 310px;
+    margin-top: 50px;
+    font-size: 20px;
+    padding: 4px;
+    background: rgb(78, 226, 219);
+    width: 140px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 600;
+    border: none!important;
+}
+
+
+
+
+/* addgrade */
+.grade {
+    font-family: Arial, sans-serif;
+    margin: 10vh auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b6f4e7;
+    margin-bottom: 20px;
+  }
+  .dash{
+    font-family: Arial, sans-serif;
+    margin: 10vh auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #b6f4e7;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .dash h1{
+    text-align: center;
+    font-weight: 600;
+    text-decoration-style: solid;
+    margin-bottom: 20px;
+  }
+  .dash h3{
+    text-align: center;
+    font-weight: 500;
+    text-decoration-style: solid;
+    margin-bottom: 15px;
+  }
+  .dash h5{
+    text-align: center;
+    font-weight: 400;
+    text-decoration-style: solid;
+    margin-bottom: 15px;
+  }
+  .showGrades{
+    font-family: Arial, sans-serif;
+    margin: 10vh auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .showGrade{
+    font-family: Arial, sans-serif;
+    width: 70%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.grade h1{
+    text-align: center;
+    font-weight: 600;
+    text-decoration-style: solid;
+    margin-bottom: 20px;
+}
+.mypic{
+    width: 30%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+}
+.myarea{
+  width: 500px;
+  display: flex;
+  margin:10px auto;
+  padding: 20px;
+}
+.subgrade{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .showGradeTable{
+    margin-top: 20px;
+    width: 30%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+  }
+
+  label {
+    margin: 10px 5% 3% 5%;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+  }
+  
+  input{
+    padding: 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #4d4a4a;
+  }
+  .myselect {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #4d4a4a;
+  }
+
+  .viewQues{
+    font-family: Arial, sans-serif;
+    margin: 10vh auto;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  
+  .myselect {
+    appearance: auto;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path fill="%23ccc" d="M4.5 5L8 8.5l3.5-3.5H4.5z"/></svg>')
+      no-repeat right #fff;
+    background-size: 12px 12px;
+    padding-right: 20px;
+    width: 100%;
+  }
+  
+  button[type='submit'] {
+    background-color: #1748b3;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type='submit']:hover {
+    background-color: #52b055;
+    font-weight: 600;
+  }
+  
+  input:focus,
+  select:focus {
+    outline: none;
+    border: 1px solid #4caf50;
+  }
+  
+
+

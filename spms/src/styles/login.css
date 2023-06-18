@@ -1,0 +1,109 @@
+.mycontainer{
+    margin:5% 5% 5% 5%;
+    text-align: center;
+    background-color: #d1e3f4;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 5px;
+    padding: 10px;
+    height: 80vh;
+}
+.myheading{
+    margin: 5px;
+    padding-top: 2%;
+    font-size: 50px;
+    font-weight: bold;
+    color: #4d1eb4;
+    text-shadow: 1.5px 1.5px 3px #c4c8cb;
+}
+
+.myform{
+    margin:3% 30% 3% 30%;
+    background-color: rgb(202, 233, 240);
+
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 5px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.myicons{
+    margin:5px;
+    font-size: 25px;
+
+}
+.formlabel{
+    margin-bottom: 2%;
+  
+}
+.formlabel input{
+    margin:5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 40%;
+    font-weight: 500;
+    padding-left: 2%;
+    justify-self: center;
+    
+}
+#loginbtn{
+    margin:5px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    width: 20%;
+    font-weight: bolder;
+    padding-left: 2%;
+    justify-self: center;
+    background-color: #569099;
+    color: #ffffff;
+    
+    font-size: 21px;
+}
+#loginbtn:hover{
+    background-color: #396381;
+    color: #ffffff;
+    font-size: 21px;
+    transition: 0.5s ease-in-out;
+}
+@media only screen and (max-width: 480px) {
+    .myform{
+        margin:3% 5% 3% 5%;
+        padding: 15% 5% 15% 5%;
+    }
+    .formlabel input{
+        width: 80%;
+    }
+    .myheading{
+        font-size: 30px;
+        margin: 50px 0 50px 0;
+    }
+    #loginbtn{
+        width: 40%;
+    }
+    .mycontainer{
+        
+    
+        
+    }
+}
+@media only screen and (max-width: 900px){
+    .myform{
+        margin:3% 5% 3% 5%;
+        padding: 15% 5% 15% 5%;
+    }
+    .formlabel input{
+        width: 50%;
+    }
+    .myheading{
+        font-size: 40px;
+        margin: 50px 0 50px 0;
+    }
+    #loginbtn{
+        width: 30%;
+    }
+    .mycontainer{
+        
+    
+        
+    }
+}
